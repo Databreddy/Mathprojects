@@ -11,3 +11,5 @@ if is_armstrong(input_number):
     print(f"{input_number} is an Armstrong number!")
 else:
     print(f"{input_number} is not an Armstrong number.")
+
+# ToDo: give a bumber, find the next Armstrong number
