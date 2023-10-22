@@ -1,4 +1,4 @@
-# Version: 2.0
+# Version: 3.0
 # Author: Bevlin Reddy
 
 # Objective: swap two variables withouth a 3 variable
@@ -14,21 +14,24 @@ y = 1024
 process = int(input("Addition and Subtraction: (1) or Multiplication and Division: (2)__"))
 
 if process == 1:
+    # Solved using addition and subtraction
     x = x + y
     y = x - y       # y is now = x
     x = x - y       # x is now = y
-    print("Solved with additional.")
+    print("Solved using additional and subtraction.")
     print("x = ",x)
     print("y = ",y)
 elif process == 2:
+    # Solved using multiplication and division
     x = x * y
     y = x / y       # y is now = x
     x = x / y       # x is now = y
-    print("Solved with multiplication.")
+    print("Solved with multiplication and division.")
     print("x = ",x)
     print("y = ",y)
 
 else:
-    print("Error in solution strategy.")
+    print(" ")
+    print("******* Error in solution strategy. *******")
 
 # FixMe:
