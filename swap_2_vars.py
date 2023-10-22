@@ -1,4 +1,4 @@
-# Version: 3.0
+# Version: 4.0
 # Author: Bevlin Reddy
 
 # Objective: swap two variables withouth a 3 variable
@@ -7,7 +7,7 @@
 # ToDo: Is this the only strategy to solve this? and
 # ToDo: Are these the fewest lines?
 
-x = 321
+x = 4321
 y = 1024
 
 # two strategies to solve the problem
